@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lwn@tum0gg+y@wekcwa)=6iok3el2)$*so3lj99k#d*23)n_#a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-ciaranbrain-djangoblog-gzdygwgvws2.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['8000-ciaranbrain-djangoblog-gzdygwgvws2.ws-eu108.gitpod.io', '127.0.0.1:8000' 'localhost']
 
 
 # Application definition
