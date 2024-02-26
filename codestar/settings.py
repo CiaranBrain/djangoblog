@@ -28,7 +28,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-ciaranbrain-djangoblog-gzdygwgvws2.ws-eu108.gitpod.io','127.0.0.1:8000','localhost','.herokuapp.com','https://8000-ciaranbrain-djangoblog-gzdygwgvws2.ws-eu108.gitpod.io' ]
 
