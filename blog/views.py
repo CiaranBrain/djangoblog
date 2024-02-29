@@ -1,3 +1,4 @@
+from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.views import generic 
 from django.contrib import messages
@@ -40,6 +41,7 @@ def post_detail(request, slug):
                 request, messages.SUCCESS,
                 'Comment submitted and awaiting approval'
             )
+            return HttpResponseRedirect(request.path_info)
 
 
     comment_form = CommentForm()
